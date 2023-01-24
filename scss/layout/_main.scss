@@ -1,0 +1,188 @@
+.textos{
+
+    color: rgb(255, 255, 255);
+
+    font-family: $tipografia-principal;
+
+    font-size: 28px;
+
+    margin-top: 15%;
+
+    margin-left: 50px;
+
+    position: relative;
+
+}
+.boton{
+
+    display: inline;
+
+    background-color: transparent;
+
+    border-color: transparent;
+
+    margin-left: 50px;
+
+}
+
+.contactatemain{
+
+    font-family: $tipografia-principal;
+
+    color:white;
+
+    margin-left: 50px;
+
+    font-size: 30px;
+
+    font-style: italic;
+
+}
+
+
+.container{
+    color: white;
+}
+
+body {
+    background-image: url(../assets/img/fondo.png);
+    background-size: cover;
+    
+    background-repeat: no-repeat;}
+
+
+    /*en que nos especializamos?*/
+
+
+.texto2{color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+    list-style-type: none;
+    margin-top: 4%;
+    }
+
+/*nuestros profesionales*/
+.profesionales{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-template-areas:" dalma lisa carlos ignacio";
+}                           
+
+.descripciondelosprofesionales{
+    font-size: 25px;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    margin-left: 20px;
+
+}
+
+/*articulos*/
+.containerdearticulos{ display: flex;
+flex-direction: column;
+margin-top: 70px;}
+.articulo1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+
+.articulo1 a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.articulo2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.articulo2 a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+}
+.articulo3{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 25px;  
+}
+
+.articulo3 a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+
+
+}
+.articulo4{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.articulo4 a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+
+
+}
+
+
+
+/*Contactos*/
+
+.containercontacto{
+    display: grid;
+    grid: template columns 2;
+    grid-template-rows:2;
+    grid-template-areas:"ubicacion sacaturno"
+                        "horarios redes";
+}
+
+.ubicacion{
+font-family: 'Raleway', sans-serif;
+color: white;
+text-align: center;  
+margin-top: 50px;
+}
+
+.horarios{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;  
+    margin-top: 150px;
+}
+
+.sacaturno{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;  
+    margin-top: 50px;
+}
+
+.redes{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;  
+    margin-top: 50px;
+}
